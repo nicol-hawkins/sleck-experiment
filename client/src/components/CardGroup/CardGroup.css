@@ -1,0 +1,20 @@
+.CardGroup {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 0 2em -2em;
+}
+
+/* @media screen and (max-width: 1280px) {
+  .CardGroup {
+    margin: 0 0 2em -1.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .CardGroup {
+    display: block;
+  }
+} */

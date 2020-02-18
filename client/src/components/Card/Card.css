@@ -1,0 +1,65 @@
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.377);
+  margin-top: 9px;
+  margin-bottom: 0px;
+  color: black;
+  font-size: larger;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.377);
+  text-align: center;
+  padding-left: 10px;
+  margin: 0px;
+  color: black;
+}
+
+.card {
+  display: none;
+}
+
+.card--show {
+  display: inline-block;
+  border-radius: 15px 15px 15px 15px;
+  width: 230px;
+  height: 250px;
+  background-color: white;
+  color: black;
+  padding-bottom: 10px;
+  font-size: large;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  transition: height .5s,
+              padding .5s,
+              min-height .5s;
+ 
+}
+
+.card:nth-child(odd) {
+  background-color: white;
+}
+
+.card:hover {
+  transition: .5s;
+  padding-top: 10px;
+}
+
+.text-area {
+  height: 140px;
+  width: 125px;
+}
+
+.ChatMessage-star {
+  max-height: 20px;
+  justify-self: end;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 20px;
+  cursor: pointer;
+  user-select: none;
+}

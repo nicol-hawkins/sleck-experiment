@@ -1,0 +1,23 @@
+:root {
+  --nav-height: 100px;
+  --chat-height: 80px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* background: url('https://i.imgur.com/t5Rw5h6.png'); */
+  background-color: rgb(146, 228, 150);
+}
+
+.App {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: var(--nav-height) 1fr var(--chat-height);
+}
+
+.AddButton {
+  top: 200px;
+}
